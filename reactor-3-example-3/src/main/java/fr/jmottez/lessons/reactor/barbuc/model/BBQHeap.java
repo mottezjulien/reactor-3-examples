@@ -1,5 +1,9 @@
 package fr.jmottez.lessons.reactor.barbuc.model;
 
+import fr.jmottez.lessons.reactor.barbuc.model.eatable.Barbecuable;
+import fr.jmottez.lessons.reactor.barbuc.model.eatable.Sausage;
+import fr.jmottez.lessons.reactor.barbuc.model.eatable.Steak;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;

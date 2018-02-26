@@ -1,4 +1,6 @@
-package fr.jmottez.lessons.reactor.barbuc.model;
+package fr.jmottez.lessons.reactor.barbuc.model.bbq;
+
+import fr.jmottez.lessons.reactor.barbuc.model.eatable.Barbecuable;
 
 import java.time.Duration;
 import java.util.HashMap;

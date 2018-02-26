@@ -2,6 +2,13 @@ package fr.jmottez.lessons.reactor.barbuc;
 
 
 import fr.jmottez.lessons.reactor.barbuc.model.*;
+import fr.jmottez.lessons.reactor.barbuc.model.bbq.BBQ;
+import fr.jmottez.lessons.reactor.barbuc.model.bbq.BBQParameter;
+import fr.jmottez.lessons.reactor.barbuc.model.bbq.CookingLevel;
+import fr.jmottez.lessons.reactor.barbuc.model.eatable.Barbecuable;
+import fr.jmottez.lessons.reactor.barbuc.model.eatable.Cooked;
+import fr.jmottez.lessons.reactor.barbuc.model.eatable.Sausage;
+import fr.jmottez.lessons.reactor.barbuc.model.eatable.Steak;
 import reactor.core.Disposable;
 import reactor.core.publisher.Flux;
 

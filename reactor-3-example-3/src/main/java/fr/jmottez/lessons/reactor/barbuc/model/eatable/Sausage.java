@@ -1,13 +1,15 @@
-package fr.jmottez.lessons.reactor.barbuc.model;
+package fr.jmottez.lessons.reactor.barbuc.model.eatable;
 
-public class Steak
+import fr.jmottez.lessons.reactor.barbuc.model.bbq.CookingLevel;
+
+public class Sausage
         implements Barbecuable {
 
     private int cookingLevel = 0;
 
     @Override
     public Barbecuable.BarbecuableEnum toEnum() {
-        return Barbecuable.BarbecuableEnum.STEAK;
+        return Barbecuable.BarbecuableEnum.SAUSAGE;
     }
 
     @Override
@@ -31,12 +33,13 @@ public class Steak
     public Cooked getCooked() {
         if (cookingLevel < 20)
             return Cooked.RAW;
-        if (cookingLevel < 80)
+        if (cookingLevel < 40)
             return Cooked.RARE;
-        if (cookingLevel < 120)
+        if (cookingLevel < 60)
             return Cooked.MEDIUM;
-        if (cookingLevel < 200)
+        if (cookingLevel < 80)
             return Cooked.DONE;
         return Cooked.OVERCOOKED;
     }
+
 }

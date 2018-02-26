@@ -1,4 +1,6 @@
-package fr.jmottez.lessons.reactor.barbuc.model;
+package fr.jmottez.lessons.reactor.barbuc.model.eatable;
+
+import fr.jmottez.lessons.reactor.barbuc.model.bbq.CookingLevel;
 
 public interface Barbecuable {
 
@@ -7,7 +9,6 @@ public interface Barbecuable {
     }
 
     BarbecuableEnum toEnum();
-
 
     void cook(CookingLevel cookingLevel);
 

@@ -1,4 +1,4 @@
-package fr.jmottez.lessons.reactor.barbuc.model;
+package fr.jmottez.lessons.reactor.barbuc.model.eatable;
 
 public enum Cooked {
 

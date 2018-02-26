@@ -1,5 +1,7 @@
-package fr.jmottez.lessons.reactor.barbuc.model;
+package fr.jmottez.lessons.reactor.barbuc.model.bbq;
 
+import fr.jmottez.lessons.reactor.barbuc.model.eatable.Barbecuable;
+import fr.jmottez.lessons.reactor.barbuc.model.Cooker;
 import reactor.core.publisher.Flux;
 
 import java.util.ArrayList;
