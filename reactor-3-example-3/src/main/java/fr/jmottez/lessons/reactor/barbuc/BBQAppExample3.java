@@ -61,9 +61,11 @@ public class BBQAppExample3 {
         });
         while (!disposable.isDisposed()) {
             Thread.sleep(1000);
-            if(!plate.isEmpty()) {
+
+            //Optional: I change the moment when you remove the meat: the second steak will be rare
+            /*if(!plate.isEmpty()) {
                 cooker.setCookedPredicate(barbecuable -> barbecuable.getCooked().ordinal() >= Cooked.RARE.ordinal());
-            }
+            }*/
         }
 
     }
